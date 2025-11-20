@@ -29,10 +29,10 @@ while True:
             display._writeblock(0, 0, 319, 239, buffer)
             
         except Exception as e:
-            print("Display method failed:", e)
+            print("Display failed:", e)
     
-        print(f"Displayed frame: {len(buf)} bytes")
-        del buf
+        print(f"Displayed frame: {len(buffer)} bytes")
+        del buffer
         gc.collect()
     else:
         print("No frame")
