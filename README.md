@@ -14,3 +14,6 @@ The idea behind this title is simply to make your **own** budget camera with sim
   - taking pictures (really easy just extract the picture from the buffer)
   - browsing through the saved pictures
   - a system to manage the ressources by reducing or increasing the framerate 
+
+## Picture of the project
+![ME](https://github.com/Dante3ee/Camera_linked_with_ILI9341/blob/main/photo.png)
